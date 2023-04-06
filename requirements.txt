@@ -1,0 +1,7 @@
+flask
+gunicorn
+MySQL
+pandas
+flask_paginate
+google-ads
+Flask-MySQLdb
