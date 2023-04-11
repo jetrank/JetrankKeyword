@@ -9,8 +9,8 @@ from django.conf import settings
 
 # Your OAuth 2.0 Client ID and Secret. If you do not have an ID and Secret yet,
 # please go to https://console.developers.google.com and create a set.
-CLIENT_ID = "988169984630-315oq2dvf0k51pug1nso1bjv6jujrca3.apps.googleusercontent.com"
-CLIENT_SECRET = "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"
+CLIENT_ID = "1049245254809-dqme0oducmg26redp61cf8m3kue9fcgm.apps.googleusercontent.com"
+CLIENT_SECRET = "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"
 
 # The AdWords API OAuth 2.0 scope.
 SCOPE = u'https://www.googleapis.com/auth/adwords'
