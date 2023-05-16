@@ -18,7 +18,7 @@ email_password = ""
 credentials = {
     "developer_token": "J4ZIPTCgPRdKp5qcz9Ugbg",
     "client_id": "988169984630-315oq2dvf0k51pug1nso1bjv6jujrca3.apps.googleusercontent.com",
-    "client_secret": "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",
+    "client_secret": "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",
     "refresh_token": "1//09KN4WnttkxTeCgYIARAAGAkSNwF-L9IraKUO94rrPFp7N2yA5es8dW_ctIdb6ZbqnsSe76D3NVqVbNbijmn2r4E9r9ZCEFF6O5I",
     "use_proto_plus": "True"}
 
