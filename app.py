@@ -209,22 +209,23 @@ def register():
             cursor.execute('INSERT INTO accounts VALUES (NULL, %s, %s, %s)', (username, password, email,))
             mysql.connection.commit()
             msg = 'You have successfully registered!'
-
+            """
             subject = "Confirmation of registration"
             email_receiver = email
             body = f"""
-            Hello {username}, thanks for joining our platform!
+            #Hello {username}, thanks for joining our platform!
             """
             em = EmailMessage()
             em['From'] = email_sender
             em['To'] = email_receiver
             em['Subject'] = subject
             em.set_content(body)
-
+            
             context = ssl.create_default_context()
             with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context) as smtp:
                 smtp.login(email_sender, email_password)
                 smtp.sendmail(email_sender, email_receiver, em.as_string())
+            """"
 
     elif request.method == 'POST':
         # Form is empty... (no POST data)
