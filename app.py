@@ -19,7 +19,7 @@ credentials = {
     "developer_token": "J4ZIPTCgPRdKp5qcz9Ugbg",
     "client_id": "1049245254809-dqme0oducmg26redp61cf8m3kue9fcgm.apps.googleusercontent.com",
     "client_secret": "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",
-    "refresh_token": "1//09260HtwS53f3CgYIARAAGAkSNwF-L9Ir6UB1VWQ5CKLajUZ7cWzgzWKy5yNPu77wQj7mxEc8CXl3qrBtTPduPTx5lOMQXV2omQ4",
+    "refresh_token": "1//09KN4WnttkxTeCgYIARAAGAkSNwF-L9IraKUO94rrPFp7N2yA5es8dW_ctIdb6ZbqnsSe76D3NVqVbNbijmn2r4E9r9ZCEFF6O5I",
     "use_proto_plus": "True"}
 
 client = GoogleAdsClient.load_from_dict(credentials)
@@ -31,10 +31,11 @@ app = Flask(__name__)
 app.secret_key = 'your secret key'
 
 # Enter your database connection details below
-app.config['MYSQL_HOST'] = 'KeywordSearchUser.mysql.pythonanywhere-services.com' #''
-app.config['MYSQL_USER'] = 'KeywordSearchUse' #''
-app.config['MYSQL_PASSWORD'] = 'wZmn6kVn1C' #''
-app.config['MYSQL_DB'] = 'KeywordSearchUse$sql9563698'  #''
+app.config['MYSQL_HOST'] = 'db-mysql-sfo3-99258-do-user-13692024-0.b.db.ondigitalocean.com' #''
+app.config['MYSQL_USER'] = 'doadmin' #''
+app.config['MYSQL_PASSWORD'] = 'AVNS_vMk6R2odcJqV6NfHka7' #''
+app.config['MYSQL_DB'] = 'defaultdb'  #''
+app.config['MYSQL_PORT'] = 25060
 
 # Intialize MySQL
 mysql = MySQL(app)
