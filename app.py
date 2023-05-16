@@ -12,8 +12,8 @@ import ssl
 import smtplib
 from flask_paginate import Pagination, get_page_parameter
 
-email_sender = ""
-email_password = ""
+email_sender = "jetrankagency@gmail.com"
+email_password = "ik6mN1k8md3giT"
 
 credentials = {
     "developer_token": "J4ZIPTCgPRdKp5qcz9Ugbg",
