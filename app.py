@@ -10,7 +10,6 @@ from os.path import exists
 from email.message import EmailMessage
 import ssl
 import smtplib
-
 from flask_paginate import Pagination, get_page_parameter
 
 email_sender = ""
